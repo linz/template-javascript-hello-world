@@ -12,14 +12,16 @@
   },
   "devDependencies": {
     "@linzjs/style": "^3.1.1",
+    "@types/ospec": "^4.0.2",
     "conventional-changelog-cli": "^2.1.1",
-    "conventional-github-releaser": "^3.1.5"
+    "conventional-github-releaser": "^3.1.5",
+    "ospec": "^4.1.1"
   },
   "scripts": {
     "build": "tsc",
     "version": "conventional-changelog -p angular -i CHANGELOG.md -s && git add CHANGELOG.md",
-    "lint": "npx eslint {src/**,*.js}",
-    "test": "echo No tests yet"
+    "lint": "npx eslint {src/**,*.js} --fix",
+    "test": "ospec --globs 'build/**/*.test.js'"
   },
   "publishConfig": {
     "access": "public"
