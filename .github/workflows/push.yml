@@ -1,11 +1,8 @@
-name: Build
+name: Bush
 
-on: [push]
+on:
+  push:
 
 jobs:
   build:
-    runs-on: ubuntu-latest
-
-    steps:
-      - uses: linz/action-typescript@v1
-
+    uses: linz/action-typescript/.github/workflows/main.yml@v1
