@@ -24,6 +24,14 @@ jobs:
     steps:
       - uses: linz/action-typescript@v1
 
+      - name: Use Github packages
+        uses: actions/setup-node@v3
+        with:
+          node-version: "16.x"
+          registry-url: "https://npm.pkg.github.com"
+          scope: "@linz"
+          cache: "yarn"
+
       - name: Publish to Github
         run: yarn publish
         env:
