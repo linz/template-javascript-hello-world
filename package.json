@@ -1,5 +1,5 @@
 {
-  "name": "@linzjs/template-javascript-hello-world",
+  "name": "@linz/template-javascript-hello-world",
   "version": "0.0.2",
   "main": "build/src/index.js",
   "types": "build/src/index.d.ts",
