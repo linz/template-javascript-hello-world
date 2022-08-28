@@ -1,5 +1,13 @@
 # Changelog
 
+## [0.0.3](https://github.com/linz/template-javascript-hello-world/compare/v0.0.2...v0.0.3) (2022-08-28)
+
+
+### Bug Fixes
+
+* publish to github pacakge registry by default ([fbc6104](https://github.com/linz/template-javascript-hello-world/commit/fbc6104a098c703c5ff15126912315a34914ea20))
+* use github `@linz/` namespace ([437cbc7](https://github.com/linz/template-javascript-hello-world/commit/437cbc785b38effbc43ee365f6c1046657b49d12))
+
 ## 0.0.2 (2022-08-11)
 
 
