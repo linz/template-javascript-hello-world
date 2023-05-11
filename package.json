@@ -14,12 +14,13 @@
     "organization": true
   },
   "devDependencies": {
-    "@linzjs/style": "^4.0.0"
+    "@linzjs/style": "^4.0.0",
+    "@types/node": "^20.1.2"
   },
   "scripts": {
     "build": "tsc",
     "lint": "npx eslint . --ignore-path .gitignore",
-    "test": "echo 'No tests yet'"
+    "test": "node --test"
   },
   "publishConfig": {
     "registry": "https://npm.pkg.github.com",
