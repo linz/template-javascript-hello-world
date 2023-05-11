@@ -1,5 +1,21 @@
 # Changelog
 
+## [0.1.0](https://github.com/linz/template-javascript-hello-world/compare/v0.0.3...v0.1.0) (2023-05-11)
+
+
+### Features
+
+* add example node:test ([62aee3f](https://github.com/linz/template-javascript-hello-world/commit/62aee3f5c8b7ae45957422c50c90b5d5975dd371))
+* remove kodaiak for github merge queues ([159050c](https://github.com/linz/template-javascript-hello-world/commit/159050c99e8c033fcc23cba6ce478345aeeeacae))
+* restrict to node &gt;=16 ([7b6c6b7](https://github.com/linz/template-javascript-hello-world/commit/7b6c6b7ad9901a0f83eb75a25b4d95d9a375d3dc))
+* switch to npm ([#36](https://github.com/linz/template-javascript-hello-world/issues/36)) ([d78c3fa](https://github.com/linz/template-javascript-hello-world/commit/d78c3fa69f62e5eb99701c628fc7adaa599a04a6))
+* use "release:" commit message prefix for releases ([1d89497](https://github.com/linz/template-javascript-hello-world/commit/1d894970c03ec34494b27180097734746aec7f27))
+
+
+### Bug Fixes
+
+* correct import paths ([e246660](https://github.com/linz/template-javascript-hello-world/commit/e246660f95846a5a1a4197736c2987a92ba185c9))
+
 ## [0.0.3](https://github.com/linz/template-javascript-hello-world/compare/v0.0.2...v0.0.3) (2022-08-28)
 
 ### Bug Fixes
