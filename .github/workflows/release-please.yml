@@ -14,7 +14,6 @@ jobs:
         id: release
         with:
           release-type: node
-          package-name: '@linz/template-javascript-hello-world'
           token: ${{ secrets.GITHUB_TOKEN }}
 
   publish-release:
@@ -23,11 +22,11 @@ jobs:
     if: ${{ needs.release-please.outputs.release_created }}
     steps:
       - name: Build and test
-        uses: linz/action-typescript@v2
+        uses: linz/action-typescript@v3
         with:
           registry-url: 'https://npm.pkg.github.com'
 
       - name: Publish to Github
-        run: yarn publish
+        run: npm publish
         env:
           NODE_AUTH_TOKEN: ${{secrets.GITHUB_TOKEN}}
