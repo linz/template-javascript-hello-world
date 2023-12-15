@@ -1,5 +1,17 @@
 # Changelog
 
+## [0.2.0](https://github.com/linz/template-javascript-hello-world/compare/v0.1.0...v0.2.0) (2023-12-15)
+
+
+### Features
+
+* Pin actions to hashes TDE-934 ([#89](https://github.com/linz/template-javascript-hello-world/issues/89)) ([6c15b9e](https://github.com/linz/template-javascript-hello-world/commit/6c15b9e4da2e90cd096e835893f3e1157e3c3b7d))
+
+
+### Bug Fixes
+
+* Use the same prefix for all Dependabot commits ([#61](https://github.com/linz/template-javascript-hello-world/issues/61)) ([e915396](https://github.com/linz/template-javascript-hello-world/commit/e915396c686cdaa98bdcc3d01dad412a1bcdbc71))
+
 ## [0.1.0](https://github.com/linz/template-javascript-hello-world/compare/v0.0.3...v0.1.0) (2023-05-11)
 
 
