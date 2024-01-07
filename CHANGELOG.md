@@ -1,5 +1,12 @@
 # Changelog
 
+## [0.3.0](https://github.com/linz/template-javascript-hello-world/compare/v0.2.0...v0.3.0) (2024-01-07)
+
+
+### Features
+
+* Assign code owners ([#101](https://github.com/linz/template-javascript-hello-world/issues/101)) ([6a8b2f4](https://github.com/linz/template-javascript-hello-world/commit/6a8b2f4bf478b461f022e17e329dac5cf48d16ff))
+
 ## [0.2.0](https://github.com/linz/template-javascript-hello-world/compare/v0.1.0...v0.2.0) (2023-12-15)
 
 
