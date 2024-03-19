@@ -15,7 +15,7 @@
   },
   "devDependencies": {
     "@linzjs/style": "^5.2.0",
-    "@types/node": "^20.11.28"
+    "@types/node": "^20.11.29"
   },
   "scripts": {
     "build": "tsc",
