@@ -20,10 +20,10 @@ jobs:
     if: ${{ needs.release-please.outputs.release_created }}
     steps:
       - name: Build and test
-        uses: linz/action-typescript@9bf69b0f313b3525d3ba3116f26b1aff7eb7a6c0 # v3
+        uses: linz/action-typescript@47be81e60ed1d891c696c3fb7f558876ba9a2b57 # v3.2.0
         with:
-          registry-url: 'https://npm.pkg.github.com'
-          node-version: 20.x
+          registry-url: "https://npm.pkg.github.com"
+          node-version: 24.x
       - name: Publish to Github
         run: npm publish
         env:
